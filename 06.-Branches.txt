@@ -1,0 +1,12 @@
+# MUESTRA LAS RAMAS QUE HAY 
+git branch
+
+# CREAR UNA RAMA CON NOMBRE "modificar-dev"
+# esto-es-kebab-case
+# estoEsCamelCase
+# esto_es_snapcase
+git branch modificar-dev
+
+# CAMBIAR DE RAMA
+ 
+

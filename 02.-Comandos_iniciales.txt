@@ -1,0 +1,10 @@
+# COMANDOS BASICOS
+git init
+git add . 
+git commit # AGREGAR MENSAJE CON EL EDITOR DE TEXTO CONFIGURADO
+git commit -m "Mensaje"
+git commit -am "Primeros dos archivos del repositorio" # ESTO NO FUNCIONA SI ES LA PRIMERA VEZ QUE AGREGAMOS LOS ARCHIVOS AL PROYECTO
+
+# QUITAR UN ARCHIVO DEL STAGE AREA
+git rm --cached archivo.txt
+
