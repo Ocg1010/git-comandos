@@ -8,3 +8,5 @@ git commit -am "Primeros dos archivos del repositorio" # ESTO NO FUNCIONA SI ES 
 # QUITAR UN ARCHIVO DEL STAGE AREA
 git rm --cached archivo.txt
 
+# VER COMO ESTA COFIGURADO Y DONDE ESTA CONECTADO EL REPOSITORIO
+git remote -v
