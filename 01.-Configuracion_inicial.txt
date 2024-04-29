@@ -39,3 +39,6 @@ git config --global core.autocrlf true
 
 # ESTO TODO LO CONVIERTE TODO A \n 
 git config --global core.autocrlf input
+
+# GIT IGNORE GLOBAL
+git config --global core.excludesfile PATH/

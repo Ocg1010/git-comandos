@@ -9,6 +9,7 @@ git diff --staged
 # SACAR IDENFITICADOR DE CADA COMMIT
 git log 
 git log --oneline  
+git log --oneline --all # MUESTRA TODOS LOS COMMITS INCLUYENDO LOS DE OTRAS RAMAS
 #CONFIGURAR EL OUTPUT PARA QUE MUESTRE UN NUMERO ESPECIFICO DE CARACTERES DEL COMMIT
 git config --global core.abbrev 5
 

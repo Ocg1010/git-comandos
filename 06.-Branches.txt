@@ -1,6 +1,10 @@
 # MUESTRA LAS RAMAS QUE HAY 
 git branch
 
+# IMPOTANTE
+# SI ESTAS EN MAIN CREAS UNA RAMA A MAIN Y SI ESTAS EN CUALQUIER OTRA RAMA CREAS UNA RAMA DE ESA RAMA EN LA QUE ESTAS
+
+
 # CREAR UNA RAMA CON NOMBRE "modificar-dev"
 # esto-es-kebab-case
 # estoEsCamelCase
@@ -8,5 +12,23 @@ git branch
 git branch modificar-dev
 
 # CAMBIAR DE RAMA
- 
+git chekout modificar-dev # ESTE COMANDO ES EL VIEJO Y NO RECOMENDADO
+git switch modificar-dev # ESTA ESTA ESPECIFICAMENTE CREADO PARA CAMBIAR RAMAS
+
+# CREAR Y CAMBIAR RAMA 
+git chekout -b modificar-dev
+git switch -c modificar-dev
+
+# BORRAR UNA RAMA (NO DEBES ESTAR EN LA RAMA QUE QUIERES BORRAR)
+git branch -d modificar-dev
+
+# MODIFICAR RAMAS (ESTANDO EN UNA RAMA DISTINTA A LA QUE QUEREMOS CAMBIAR)
+git branch -m master main
+
+# MODIFICAR RAMA ESTANDO EN LA RAMA
+git branch -m main
+
+
+
+
 
